@@ -17,7 +17,7 @@ function compareVersion(version1: string, version2: string): number {
             ver2Pos += 1;
         }
 
-        if(ver1Array[ver1Pos] === undefined && ver2Array[ver2Pos] == undefined){
+        if(ver1Array[ver1Pos] === undefined && ver2Array[ver2Pos] === undefined){
             return 0;
         }
         else if(ver1Array[ver1Pos] === undefined){
