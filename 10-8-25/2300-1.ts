@@ -1,4 +1,4 @@
-function successfulPairs(spells: number[], potions: number[], success: number): number[] {
+function successfulPairs1(spells: number[], potions: number[], success: number): number[] {
 
     //Bad approach. Too much needless iteration.
 
